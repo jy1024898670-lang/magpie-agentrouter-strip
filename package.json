@@ -1,0 +1,26 @@
+{
+  "name": "magpie-agentrouter-strip",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.mjs",
+  "license": "MIT",
+  "description": "AgentRouter provider for magpie that strips Azure-bound Responses state only after a 400",
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "agentrouter",
+    "responses-api",
+    "azure-openai"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "magpie": {
+    "maxConcurrency": 2
+  }
+}
